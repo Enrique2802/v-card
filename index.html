@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patrick Bateman vCard</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+      background-color: #FFEFD9;
+      font-family: 'EB Garamond', serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 50px 20px;
+  }
+
+  .vcard {
+      background-color: white;
+      width: 350px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      overflow: hidden;
+      text-align: center;
+  }
+
+  .vcard img {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+
+  .vcard-info {
+      padding: 20px;
+  }
+
+  .vcard-name {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      margin: 0 0 5px 0;
+  }
+
+  .vcard-job-location {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+  }
+
+  .resume {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.5;
+      text-align: left;
+      margin-bottom: 20px;
+  }
+
+  .vcard-phone, .vcard-mail {
+      text-align: left;
+      margin-bottom: 10px;
+      font-size: 14px;
+  }
+
+  .vcard-phone strong, .vcard-mail strong {
+      display: inline-block;
+      width: 60px;
+  }
+
+  .vcard-phone a, .vcard-mail a {
+      color: #3366cc;
+      text-decoration: none;
+  }
+
+  .vcard-phone a:hover, .vcard-mail a:hover {
+      text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+    <div class="vcard">
+      <img src="https://deadline.com/wp-content/uploads/2025/10/American-Psycho.webp?w=681&h=383&crop=1" 
+         alt="Patrick Bateman">
+      <div class="vcard-info">
+        <h2 class="vcard-name">Patrick BATEMAN</h2>
+        <p class="vcard-job-location">Investment Banker - Pierce & Pierce</p>
+        <p class="resume">
+            Highly disciplined and results-oriented investment professional with a cultivated eye for detail 
+            and presentation. Recognized for maintaining impeccable standards, delivering precise financial 
+            analysis, and managing high-value client relationships with confidence and sophistication.
+        </p>
+        <p class="vcard-phone">
+            <strong>Phone</strong>
+            <a href="tel:+2125556342">+212 555 6342</a>
+        </p>
+        <p class="vcard-mail">
+            <strong>Mail</strong>
+            <a href="mailto:PatrickBateman@gmail.com">PatrickBateman@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
