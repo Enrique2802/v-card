@@ -2,12 +2,16 @@
 
 ---
 
-Voici la v-card que j'ai fais de Patrick Bateman pour rester dans le theme :
+Let see Patrick Bateman's v-card :
 
 file:///C:/Users/enriq/Downloads/index.html
 
-# Comment j'ai fais:
+# How did i proceed:
 
 ---
 
-### Matériel utilisé:  
+### Tech used:
+VSCode, HTML, CSS  
+
+I started by knowing who's v-card to design then, searching their taste and preferrences.
+Then, i started by placing all the component in html and finishing with css
